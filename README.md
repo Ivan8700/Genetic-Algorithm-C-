@@ -19,3 +19,4 @@ The algorithm will works recursively as follows :
 9) if too much, repeat from step 1. if small enought number - exit and print the best solution.  
 
 Overall the point of the algorithm is - the better the solution is, the higher evaluation and probability it will have, the higher amount of times it will be chosen to participate in the next generation.  
+For large inputs, the algorithm will never get an optimal solution, but a close approximation will be found in a pretty good run-time.
